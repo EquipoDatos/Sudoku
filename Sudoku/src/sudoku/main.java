@@ -9,7 +9,7 @@ package sudoku;
  *
  * @author alberto
  */
-public class Sudoku {
+public class main {
 
     /**
      * @param args the command line arguments
