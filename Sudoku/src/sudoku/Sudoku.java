@@ -193,7 +193,13 @@ public class Sudoku {
                 if (valida(ren, col))
                     return resuelve(nextRen(ren,col), nextCol(ren,col), numRecursiones+1);
                 else 
-                    return resuelve(ren, col, numRecursiones+1);
+                    while(!valida(ren,col) && matriz[ren][col]<9){
+                        matriz[ren][col] = matriz[ren][col] + 1;
+                        if(valida(ren, col))
+                            return resuelve(nextRen(ren,col), nextCol(ren,col), numRecursiones+1);
+                    }
+                setElemento(ren, col, 0);
+                return resuelve(prevRen(ren,col), prevCol(ren,col), numRecursiones+1);
             }
         }
     }
