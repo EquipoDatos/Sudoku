@@ -1,14 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package sudoku;
 
 /**
  *
- * @author marcopalermo
+ * @author Marco Palermo
+ * @author Alberto Jafif
+ * @author Abraham Attie
+ * @author Patricio Falcón
+ * @author David Ramos
  */
+
 public class Sudoku {
     
     private int[][] matriz, original;
@@ -166,7 +167,6 @@ public class Sudoku {
     }
     
     private  boolean resuelve(int ren, int col){
-        //System.out.println(this.toString()+"\n");
         // Estado base donde no se puede resolver el problema
         if(ren == primeraMod[0] && col == primeraMod[1]
            && matriz[ren][col] == 9 && !valida(ren,col))
@@ -232,15 +232,20 @@ public class Sudoku {
                          {0,1,2,3,0,0,8,0,4},
                          {0,8,0,4,0,0,7,6,5},
                          {0,7,6,5,0,0,0,0,0}};
+        
         Sudoku s = new Sudoku(matriz);
         Sudoku s2 = new Sudoku(matriz2);
         Sudoku s3 = new Sudoku(matriz3);
+//        s.resuelve();
+//        System.out.println("Sudoku 1");
 //        System.out.println(s.toString());
-//        System.out.println(s.prevRen(4, 1));
-//        System.out.println(s.prevCol(4, 1));
-//        System.out.println(s.resuelve());
+        s2.resuelve();
+        System.out.println("Sudoku 2");
+        System.out.println(s2.toString());
         s3.resuelve();
+        System.out.println("Sudoku 3");
         System.out.println(s3.toString());
+        
     }
     
     
