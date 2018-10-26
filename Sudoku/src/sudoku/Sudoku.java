@@ -162,35 +162,38 @@ public class Sudoku {
             return col+1;
     }
     
-    public boolean resuelve(){ 
-        return resuelve(0, 0);
+    public int resuelve(){ 
+        return resuelve(0, 0, 0);
     }
-    
-    private  boolean resuelve(int ren, int col){
+    /*Regresa el número de recursiones que realizó
+    y -1 si no se puede resolver el sudoku.
+    También podemos cambiarlo simplemente a boolean.
+    */
+    private  int resuelve(int ren, int col, int numRecursiones){
         // Estado base donde no se puede resolver el problema
         if(ren == primeraMod[0] && col == primeraMod[1]
            && matriz[ren][col] == 9 && !valida(ren,col))
-            return false;
+            return -1;
         // Estado base donde el problema ha sido resuelto
         else if (ren == 8 && col == 8 && matriz[ren][col] != 0 && valida(ren, col))
-            return true;
+            return numRecursiones;
         // Si la celda no es modificable
         else if (original[ren][col] != 0)
-            return resuelve(nextRen(ren,col), nextCol(ren,col));
+            return resuelve(nextRen(ren,col), nextCol(ren,col), numRecursiones+1);
         // Si la celda es modificable
         else {
             // Si la celda llegó al límite y no es válido
             if(matriz[ren][col] == 9){
                 setElemento(ren, col, 0);
-                return resuelve(prevRen(ren,col), prevCol(ren,col));
+                return resuelve(prevRen(ren,col), prevCol(ren,col), numRecursiones+1);
             }
             // Si no ha llegado a su límite
             else {
                 setElemento(ren, col, matriz[ren][col]+1);
                 if (valida(ren, col))
-                    return resuelve(nextRen(ren,col), nextCol(ren,col));
+                    return resuelve(nextRen(ren,col), nextCol(ren,col), numRecursiones+1);
                 else 
-                    return resuelve(ren, col);
+                    return resuelve(ren, col, numRecursiones+1);
             }
         }
     }
@@ -239,12 +242,12 @@ public class Sudoku {
 //        s.resuelve();
 //        System.out.println("Sudoku 1");
 //        System.out.println(s.toString());
-        s2.resuelve();
+        System.out.println(s2.resuelve());
         System.out.println("Sudoku 2");
-        System.out.println(s2.toString());
-        s3.resuelve();
+        System.out.println(s2.toString()+"\n");
+        System.out.println(s3.resuelve());
         System.out.println("Sudoku 3");
-        System.out.println(s3.toString());
+        System.out.println(s3.toString()+"\n");
         
     }
     
