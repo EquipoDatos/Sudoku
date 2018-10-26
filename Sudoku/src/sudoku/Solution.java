@@ -31,6 +31,27 @@ public class Solution {
         }
         return res;
     }
+    
+    
+    public static int[] lastCell(Sudoku fixed) throws Exception{
+        boolean resp=false;
+        int[] res = new int[2];
+        int j;
+        int i=8;
+        while(i>=0 && resp == false){
+            j=8;
+            while(j>=0 && resp == false){
+                if (fixed.getMatrix()[i][j]==0 && resp==false){
+                    res[0]=i;
+                    res[1]=j;
+                    resp = true;
+                }
+                j--;
+            }
+            i--;
+        }
+        return res;
+    }
 
     public static int[] prevCell(Sudoku fixed, int row, int col) throws Exception{
         boolean resp=false;
@@ -64,33 +85,20 @@ public class Solution {
         return res[1];
     }
     
-    public static int[] nextCell(Sudoku fixed, int row, int col) throws Exception{
-        boolean resp=false;
-        int[] res = new int[2];
-        int a=-1,b=-1,j;
-        int i=0;
-        while(i<=8 && !resp){
-            j=0;
-            while(j<=8 && !resp){
-                if (fixed.getMatrix()[i][j]==0 && (i>row || (i==row && j>col))){
-                    a=i;
-                    b=j;
-                    resp=true;
-                }
-                j++;
-            }
-            i++;
-        }
-        res[0]=a; res[1]=b;
-        return res;
-    }
     
-    public static int nextRow(Sudoku fixed, int row, int col) throws Exception{
-        return nextCell(fixed, row, col)[0];
+    public static int nextRow(int row, int col){
+        if (col==8 && row!=8)
+            return row+1;
+        else
+            return row;
     }
-    
-    public static int nextCol(Sudoku fixed, int row, int col) throws Exception{
-        return nextCell(fixed, row, col)[1];
+    public static int nextCol(int row, int col){
+        if (col==8 && row==8)
+            return col;
+        else if (col==8)
+            return 0;
+        else
+            return col+1;
     }
     
     public static boolean solve(Sudoku s) throws Exception{
@@ -109,7 +117,7 @@ public class Solution {
             return true;
         // if the current Cell is not Modifiable
         else if (fixed.getMatrix()[row][col]==1)
-            return solve(s, fixed, nextRow(s,row,col), nextCol(s,row,col));
+            return solve(s, fixed, nextRow(row,col), nextCol(row,col));
         // if the current Cell is Modifiable
         else {
             // increment the value of the cell
@@ -121,7 +129,7 @@ public class Solution {
             else{
                 s.setElement(row, col, s.getMatrix()[row][col]+1);
                 if (valida(s, row, col))
-                    return solve(s, fixed, nextRow(s,row,col), nextCol(s,row,col));
+                    return solve(s, fixed, nextRow(row,col), nextCol(row,col));
                 else
                     return solve(s, fixed, row, col);
             }
