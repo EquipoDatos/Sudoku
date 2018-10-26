@@ -235,10 +235,22 @@ public class Sudoku {
                          {0,1,2,3,0,0,8,0,4},
                          {0,8,0,4,0,0,7,6,5},
                          {0,7,6,5,0,0,0,0,0}};
+        //NO sirve
+        int[][] matriz4 = 
+                        {{7,0,0,3,0,9,0,0,1},
+                         {0,0,0,0,5,0,0,0,0},
+                         {8,2,0,0,6,0,0,0,0},
+                         {0,5,9,0,0,0,0,0,3},
+                         {6,0,2,0,0,0,1,0,9},
+                         {3,0,0,0,0,0,6,5,0},
+                         {0,0,0,0,7,0,0,9,4},
+                         {0,0,0,0,8,0,0,0,0},
+                         {9,0,0,1,0,3,0,0,7}};
         
         Sudoku s = new Sudoku(matriz);
         Sudoku s2 = new Sudoku(matriz2);
         Sudoku s3 = new Sudoku(matriz3);
+        Sudoku s4 = new Sudoku(matriz4);
 //        s.resuelve();
 //        System.out.println("Sudoku 1");
 //        System.out.println(s.toString());
@@ -248,6 +260,9 @@ public class Sudoku {
         System.out.println(s3.resuelve());
         System.out.println("Sudoku 3");
         System.out.println(s3.toString()+"\n");
+//        System.out.println(s4.resuelve());
+//        System.out.println("Sudoku 4");
+//        System.out.println(s4.toString()+"\n");
         
     }
     
