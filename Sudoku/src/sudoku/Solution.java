@@ -31,27 +31,6 @@ public class Solution {
         }
         return res;
     }
-    
-    
-    public static int[] lastCell(Sudoku fixed) throws Exception{
-        boolean resp=false;
-        int[] res = new int[2];
-        int j;
-        int i=8;
-        while(i>=0 && resp == false){
-            j=8;
-            while(j>=0 && resp == false){
-                if (fixed.getMatrix()[i][j]==0 && resp==false){
-                    res[0]=i;
-                    res[1]=j;
-                    resp = true;
-                }
-                j--;
-            }
-            i--;
-        }
-        return res;
-    }
 
     public static int[] prevCell(Sudoku fixed, int row, int col) throws Exception{
         boolean resp=false;
