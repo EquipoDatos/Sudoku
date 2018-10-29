@@ -208,7 +208,6 @@ public class Sudoku {
     
 
     public static void main(String[] args) throws Exception{
-        /*NO sirve, falta revisar por qué*/
         int[][] matriz = 
                         {{5,3,0,0,7,0,0,0,0},
                          {6,0,0,1,9,5,0,0,0},
@@ -219,7 +218,6 @@ public class Sudoku {
                          {0,6,0,0,0,0,2,8,0},
                          {0,0,0,4,1,9,0,0,5},
                          {0,0,0,0,8,0,0,7,9}};
-        //Sí sirve
         int[][] matriz2 = 
                         {{1,0,0,0,5,0,7,0,2},
                          {0,0,0,6,0,3,0,0,8},
@@ -230,7 +228,6 @@ public class Sudoku {
                          {2,6,0,0,0,0,8,0,5},
                          {9,0,0,8,0,1,0,0,0},
                          {0,0,3,0,9,0,0,2,0}};
-        //Sí sirve
         int[][] matriz3 = 
                         {{0,0,0,0,0,1,2,3,0},
                          {1,2,3,0,0,8,0,4,0},
@@ -241,7 +238,6 @@ public class Sudoku {
                          {0,1,2,3,0,0,8,0,4},
                          {0,8,0,4,0,0,7,6,5},
                          {0,7,6,5,0,0,0,0,0}};
-        //NO sirve
         int[][] matriz4 = 
                         {{7,0,0,3,0,9,0,0,1},
                          {0,0,0,0,5,0,0,0,0},
@@ -252,23 +248,37 @@ public class Sudoku {
                          {0,0,0,0,7,0,0,9,4},
                          {0,0,0,0,8,0,0,0,0},
                          {9,0,0,1,0,3,0,0,7}};
-        
+        /*El sudoku más difícil del mundo*/
+         int[][] matriz5 = 
+                        {{8,0,0,0,0,0,0,0,0},
+                         {0,0,3,6,0,0,0,0,0},
+                         {0,7,0,0,9,0,2,0,0},
+                         {0,5,0,0,0,7,0,0,0},
+                         {0,0,0,0,4,5,7,0,0},
+                         {0,0,0,1,0,0,0,3,0},
+                         {0,0,1,0,0,0,0,6,8},
+                         {0,0,8,5,0,0,0,1,0},
+                         {0,9,0,0,0,0,4,0,0}};
         Sudoku s = new Sudoku(matriz);
         Sudoku s2 = new Sudoku(matriz2);
         Sudoku s3 = new Sudoku(matriz3);
         Sudoku s4 = new Sudoku(matriz4);
-        s.resuelve();
+        Sudoku s5 = new Sudoku(matriz5);
         System.out.println("Sudoku 1");
+        System.out.println(s.resuelve());
         System.out.println(s.toString());
-        System.out.println(s2.resuelve());
         System.out.println("Sudoku 2");
+        System.out.println(s2.resuelve());
         System.out.println(s2.toString()+"\n");
+        System.out.println("Sudoku 3");
         System.out.println(s3.resuelve());
-//        System.out.println("Sudoku 3");
-//        System.out.println(s3.toString()+"\n");
-//        System.out.println(s4.resuelve());
-//        System.out.println("Sudoku 4");
-//        System.out.println(s4.toString()+"\n");
+        System.out.println(s3.toString()+"\n");
+        System.out.println("Sudoku 4");
+        System.out.println(s4.resuelve());
+        System.out.println(s4.toString()+"\n");
+        System.out.println("Sudoku 5");
+        System.out.println(s5.resuelve());
+        System.out.println(s5.toString());
         
     }
     
