@@ -264,11 +264,11 @@ public class Sudoku {
         System.out.println("Sudoku 2");
         System.out.println(s2.toString()+"\n");
         System.out.println(s3.resuelve());
-        System.out.println("Sudoku 3");
-        System.out.println(s3.toString()+"\n");
-        System.out.println(s4.resuelve());
-        System.out.println("Sudoku 4");
-        System.out.println(s4.toString()+"\n");
+//        System.out.println("Sudoku 3");
+//        System.out.println(s3.toString()+"\n");
+//        System.out.println(s4.resuelve());
+//        System.out.println("Sudoku 4");
+//        System.out.println(s4.toString()+"\n");
         
     }
     
