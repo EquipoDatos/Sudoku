@@ -257,18 +257,18 @@ public class Sudoku {
         Sudoku s2 = new Sudoku(matriz2);
         Sudoku s3 = new Sudoku(matriz3);
         Sudoku s4 = new Sudoku(matriz4);
-//        s.resuelve();
-//        System.out.println("Sudoku 1");
-//        System.out.println(s.toString());
+        s.resuelve();
+        System.out.println("Sudoku 1");
+        System.out.println(s.toString());
         System.out.println(s2.resuelve());
         System.out.println("Sudoku 2");
         System.out.println(s2.toString()+"\n");
         System.out.println(s3.resuelve());
         System.out.println("Sudoku 3");
         System.out.println(s3.toString()+"\n");
-//        System.out.println(s4.resuelve());
-//        System.out.println("Sudoku 4");
-//        System.out.println(s4.toString()+"\n");
+        System.out.println(s4.resuelve());
+        System.out.println("Sudoku 4");
+        System.out.println(s4.toString()+"\n");
         
     }
     
