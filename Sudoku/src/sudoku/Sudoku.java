@@ -15,10 +15,31 @@ public class Sudoku {
     private int[][] matriz, original;
     private int [] primeraMod;
     
-    public Sudoku(int[][] matriz){
+    public Sudoku(int[][] matriz) throws Exception{
         this.matriz = matriz;
+        if (!validacionInicial())
+            throw new Exception("la configuracion inicial no es valida!");
         this.original = copia(matriz);
         this.primeraMod = firstCell();
+    }
+    
+    public boolean validacionInicial(){
+        // valida todos los renglones y las columnas 
+        boolean resp=true;
+        int i=0, j=0;
+        while(i<9 && resp==true){
+            resp=validaRenglon(i) && validaColumna(i);
+            i++;
+        }
+        // valida todas las cuadriculas
+        for (i=0; i<7; i+=3){
+            while(j<7 && resp==true){
+                    resp=validaCuadricula(i,j);
+                    j+=3;
+            }
+            j=0;
+        }
+        return resp;
     }
     
     public void setElemento(int ren, int col, int newElement){
@@ -165,17 +186,10 @@ public class Sudoku {
     public int resuelve(){ 
         return resuelve(0, 0, 0);
     }
-    /*Regresa el número de recursiones que realizó
-    y -1 si no se puede resolver el sudoku.
-    También podemos cambiarlo simplemente a boolean.
-    */
+    /*Regresa el número de recursiones que realizó*/
     private  int resuelve(int ren, int col, int numRecursiones){
-        // Estado base donde no se puede resolver el problema
-        if(ren == primeraMod[0] && col == primeraMod[1]
-           && matriz[ren][col] == 9 && !valida(ren,col))
-            return -1;
         // Estado base donde el problema ha sido resuelto
-        else if (ren == 8 && col == 8 && matriz[ren][col] != 0 && valida(ren, col))
+        if (ren == 8 && col == 8 && matriz[ren][col] != 0 && valida(ren, col))
             return numRecursiones;
         // Si la celda no es modificable
         else if (original[ren][col] != 0)
@@ -219,26 +233,6 @@ public class Sudoku {
                          {0,0,0,4,1,9,0,0,5},
                          {0,0,0,0,8,0,0,7,9}};
         int[][] matriz2 = 
-                        {{1,0,0,0,5,0,7,0,2},
-                         {0,0,0,6,0,3,0,0,8},
-                         {0,7,6,0,1,0,3,0,0},
-                         {0,4,0,3,0,7,0,5,0},
-                         {8,1,0,0,6,0,4,0,7},
-                         {0,9,0,0,0,5,0,0,0},
-                         {2,6,0,0,0,0,8,0,5},
-                         {9,0,0,8,0,1,0,0,0},
-                         {0,0,3,0,9,0,0,2,0}};
-        int[][] matriz3 = 
-                        {{0,0,0,0,0,1,2,3,0},
-                         {1,2,3,0,0,8,0,4,0},
-                         {8,0,4,0,0,7,6,5,0},
-                         {7,6,5,0,0,0,0,0,0},
-                         {0,0,0,0,0,0,0,0,0},
-                         {0,0,0,0,0,0,1,2,3},
-                         {0,1,2,3,0,0,8,0,4},
-                         {0,8,0,4,0,0,7,6,5},
-                         {0,7,6,5,0,0,0,0,0}};
-        int[][] matriz4 = 
                         {{7,0,0,3,0,9,0,0,1},
                          {0,0,0,0,5,0,0,0,0},
                          {8,2,0,0,6,0,0,0,0},
@@ -249,7 +243,7 @@ public class Sudoku {
                          {0,0,0,0,8,0,0,0,0},
                          {9,0,0,1,0,3,0,0,7}};
         /*El sudoku más difícil del mundo*/
-         int[][] matriz5 = 
+        int[][] matriz3 = 
                         {{8,0,0,0,0,0,0,0,0},
                          {0,0,3,6,0,0,0,0,0},
                          {0,7,0,0,9,0,2,0,0},
@@ -262,25 +256,16 @@ public class Sudoku {
         Sudoku s = new Sudoku(matriz);
         Sudoku s2 = new Sudoku(matriz2);
         Sudoku s3 = new Sudoku(matriz3);
-        Sudoku s4 = new Sudoku(matriz4);
-        Sudoku s5 = new Sudoku(matriz5);
         System.out.println("Sudoku 1");
         System.out.println(s.resuelve());
-        System.out.println(s.toString());
+        System.out.println(s.toString()+"\n");
         System.out.println("Sudoku 2");
         System.out.println(s2.resuelve());
         System.out.println(s2.toString()+"\n");
         System.out.println("Sudoku 3");
         System.out.println(s3.resuelve());
         System.out.println(s3.toString()+"\n");
-        System.out.println("Sudoku 4");
-        System.out.println(s4.resuelve());
-        System.out.println(s4.toString()+"\n");
-        System.out.println("Sudoku 5");
-        System.out.println(s5.resuelve());
-        System.out.println(s5.toString());
         
     }
-    
-    
 }
+
