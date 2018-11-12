@@ -31,12 +31,29 @@ public class Sudoku {
     * @see firstCell
     * </pre>
     */
-   public Sudoku(int[][] matriz) throws Exception{
+    public Sudoku(){
+        this.matriz = new int[9][9];
+        this.original = copia(matriz);
+    }
+    
+    public Sudoku(int[][] matriz) throws Exception{
+        setMatriz(matriz);
+    }
+    
+    public void setMatriz(int[][] matriz) throws Exception{
         this.matriz = matriz;
         if (!validacionInicial())
             throw new Exception("la configuracion inicial no es valida!");
         this.original = copia(matriz);
         this.primeraMod = firstCell();
+    }
+   
+    public int[][] getMatriz(){
+       return this.matriz;
+    }
+    
+    public int[][] getOriginal(){
+        return this.original;
     }
     
    /**
@@ -407,6 +424,12 @@ public class Sudoku {
         System.out.println("Sudoku 3");
         System.out.println(s3.resuelve());
         System.out.println(s3.toString()+"\n");
+        
+        StringBuilder cadena = new StringBuilder();
+        for (int i =0; i<9; i++)
+            for (int j=0; j<9; j++)
+                cadena.append("casilla").append(i).append(j).append(", ");
+        System.out.println(cadena.toString());
 
         
     }
