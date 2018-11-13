@@ -6,6 +6,7 @@
 package sudoku;
 
 import java.awt.Color;
+import javax.swing.JTextField;
 
 /**
  *
@@ -19,12 +20,15 @@ public class GUI2 extends javax.swing.JFrame {
     public GUI2() {
         initComponents();
         casillaResultado.setEditable(false);
+        casillaResultado.setHorizontalAlignment(JTextField.CENTER);
+        casillaResultado.setText("¡Bienvenido!");
     }
     
     
     public int[][] matriz = new int[9][9];
     Sudoku sudoku = new Sudoku();
     boolean invalidInput = false;
+    
     
     
     public void valida(int input) throws Exception{
@@ -960,9 +964,9 @@ public class GUI2 extends javax.swing.JFrame {
                             .addComponent(casilla9l5, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(casilla9l6, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(7, 7, 7)
-                        .addComponent(tituloSudoku, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGap(0, 0, 0)
+                        .addComponent(tituloSudoku, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(botonResolver)
                             .addComponent(botonLimpiar))
@@ -1103,9 +1107,10 @@ public class GUI2 extends javax.swing.JFrame {
             casilla9l7.setText(String.valueOf(matriz[8][6]));
             casilla9l8.setText(String.valueOf(matriz[8][7]));
             casilla9l9.setText(String.valueOf(matriz[8][8]));
+            casillaResultado.setText("¡Resuelta!");
         }
         catch(Exception e){
-            casillaResultado.setText("ERROR: The matrix is not Valid!!!");
+            casillaResultado.setText("¡Matriz inválida!");
         }
         
         
@@ -1117,7 +1122,7 @@ public class GUI2 extends javax.swing.JFrame {
 
     private void botonLimpiarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonLimpiarActionPerformed
         invalidInput=false;
-        casillaResultado.setText("");
+        casillaResultado.setText("Inserta otros numeros");
         matriz = new int[9][9];
         casilla1l1.setForeground(Color.BLACK);
         casilla1l2.setForeground(Color.BLACK);
@@ -1350,6 +1355,7 @@ public class GUI2 extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new GUI2().setVisible(true);
+                
             }
         });
     }
