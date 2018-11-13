@@ -9,7 +9,6 @@ package sudoku;
  * @author Marco Palermo
  * @author Alberto Jafif
  * @author Abraham Attie
- * @author Patricio Falcón
  * @author David Ramos
  * 
  * </pre>

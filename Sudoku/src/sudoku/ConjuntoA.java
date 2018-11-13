@@ -1,15 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package sudoku;
 
 import java.util.Iterator;
 
 /**
  *
- * @author alberto
+ * @author Marco Palermo
+ * @author Alberto Jafif
+ * @author Abraham Attie
+ * @author David Ramos
  */
 public class ConjuntoA <T> implements ConjuntoADT <T>{
     private T[] conjunto;
@@ -39,23 +38,6 @@ public class ConjuntoA <T> implements ConjuntoADT <T>{
             resp = it.next().equals(elemento);
         return resp;
     }
-
-    /* versión recursiva de "contiene()"
-    
-    private boolean contiene(Iterator<T> it, T elemento){
-        if(!it.hasNext())
-            return false;
-        else
-            if(it.next().equals(elemento))
-                return true;
-            else
-                return contiene(it, elemento);
-    }
-    public boolean contiene(T elemento){
-        boolean resp = false;
-        Iterator <T> it = iterator();
-        return contiene(it, elemento);
-    }*/
     
     @Override
     public boolean agrega(T elemento){
