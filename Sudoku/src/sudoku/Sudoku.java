@@ -426,11 +426,12 @@ public class Sudoku {
         System.out.println(s3.toString()+"\n");
         
         StringBuilder cadena = new StringBuilder();
-        for (int i =0; i<9; i++)
-            for (int j=0; j<9; j++)
-                cadena.append("casilla").append(i).append(j).append(", ");
+        for (int i =1; i<10; i++)
+            for (int j=1; j<10; j++)
+                cadena.append("casilla").append(i).append("l").append(j).append(", ");
         System.out.println(cadena.toString());
 
+        System.out.println("casilla5l1".substring(9));
         
     }
 }
