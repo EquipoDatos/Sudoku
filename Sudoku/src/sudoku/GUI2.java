@@ -42,7 +42,7 @@ public class GUI2 extends javax.swing.JFrame {
     }
     
     public void getValues(){
-        
+         
         try{matriz[0][0]=Integer.valueOf(casilla1l1.getText());} catch(Exception e){if(!casilla1l1.getText().equals("")) invalidInput=true; else casilla1l1.setForeground(Color.BLUE); }
         try{matriz[0][1]=Integer.valueOf(casilla1l2.getText());} catch(Exception e){if(!casilla1l2.getText().equals("")) invalidInput=true; else casilla1l2.setForeground(Color.BLUE);}
         try{matriz[0][2]=Integer.valueOf(casilla1l3.getText());} catch(Exception e){if(!casilla1l3.getText().equals("")) invalidInput=true; else casilla1l3.setForeground(Color.BLUE);}
@@ -1110,7 +1110,7 @@ public class GUI2 extends javax.swing.JFrame {
             casillaResultado.setText("¡Resuelta!");
         }
         catch(Exception e){
-            casillaResultado.setText("¡Matriz inválida!");
+            casillaResultado.setText("¡Matriz inválida!"); 
         }
         
         
