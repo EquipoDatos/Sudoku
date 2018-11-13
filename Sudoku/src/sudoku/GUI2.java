@@ -557,7 +557,6 @@ public class GUI2 extends javax.swing.JFrame {
         casilla3l3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         casilla3l3.setFont(new java.awt.Font("Tempus Sans ITC", 0, 24)); // NOI18N
         casilla3l3.setPreferredSize(new java.awt.Dimension(30, 30));
-        casilla3l3.setText(" ");
         casilla3l3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 casilla3l3MouseClicked(evt);

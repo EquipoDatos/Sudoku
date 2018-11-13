@@ -1265,7 +1265,6 @@
         <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
           <Dimension value="[30, 30]"/>
         </Property>
-        <Property name="text" type="java.lang.String" value=" "/>
       </Properties>
       <Events>
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="casilla3l3MouseClicked"/>
