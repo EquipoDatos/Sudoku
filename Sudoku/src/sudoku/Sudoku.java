@@ -23,8 +23,6 @@ public class Sudoku {
    /**
     * <pre>
     * Construye un Sudoku con base en los datos ingresados por el usuario. 
-    * @param matriz Recibe un arreglo bidimensional de enteros de 9 renglones y 9 columnas.
-    * @throws Exception si la matriz no cumple con el reglamento del Sudoku, si no es válido. 
     * La matriz es el Sudoku que el usuario creo en el programa mediante la interfaz gráfica. 
     * @see validacionInicial
     * @see copia
@@ -48,14 +46,6 @@ public class Sudoku {
         this.primeraMod = firstCell();
     }
    
-    public int[][] getMatriz(){
-       return this.matriz;
-    }
-    
-    public int[][] getOriginal(){
-        return this.original;
-    }
-    
    /**
     * Valida inicialmente el Sudoku que el usuario ingresó; revisa que no exista una repeticion iválida de números.
     * No se cerciora que la matriz sea de 9X9, ya que la matriz es recibida por la interfáz gráfica estrictamente de
