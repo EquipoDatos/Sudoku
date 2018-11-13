@@ -25,173 +25,157 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="casilla1l7" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla1l8" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla1l9" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="casilla4l1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="casilla4l2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="casilla4l3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="casilla1l1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="casilla1l2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="casilla1l3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="casilla7l1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="casilla7l2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="casilla7l3" min="-2" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="casilla4l4" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla4l5" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla4l6" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="casilla3l1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="casilla3l2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="casilla3l3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="casilla2l1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="casilla2l2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="casilla2l3" min="-2" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="casilla7l4" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla7l5" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla7l6" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="casilla4l1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla4l2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla4l3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="casilla7l7" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla7l8" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla7l9" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="casilla1l1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla1l2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla1l3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="casilla1l4" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla1l5" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla1l6" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="casilla4l7" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla4l8" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla4l9" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="casilla7l1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla7l2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla7l3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="casilla2l7" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla2l8" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla2l9" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="casilla5l4" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla5l5" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla5l6" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="casilla8l4" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla8l5" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla8l6" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
+                  <Group type="102" attributes="0">
                       <Component id="casilla5l1" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                       <Component id="casilla5l2" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                       <Component id="casilla5l3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="casilla8l7" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla8l8" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla8l9" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="casilla2l1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla2l2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla2l3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="casilla2l4" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla2l5" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla2l6" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="casilla5l7" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla5l8" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla5l9" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="casilla8l1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla8l2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla8l3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="casilla3l1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla3l2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla3l3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="casilla3l4" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla3l5" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla3l6" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="casilla3l7" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla3l8" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla3l9" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
+                  <Group type="102" attributes="0">
                       <Component id="casilla6l1" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                       <Component id="casilla6l2" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                       <Component id="casilla6l3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="casilla8l1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="casilla8l2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="casilla8l3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="casilla9l1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="casilla9l2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="casilla9l3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="casilla5l4" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                      <Component id="casilla5l5" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                      <Component id="casilla5l6" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="casilla8l4" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                      <Component id="casilla8l5" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                      <Component id="casilla8l6" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="casilla2l4" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                      <Component id="casilla2l5" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                      <Component id="casilla2l6" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="casilla1l4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                  <Component id="casilla1l5" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                  <Component id="casilla1l6" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="casilla3l4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="casilla3l5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="casilla3l6" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="casilla4l4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="casilla4l5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="casilla4l6" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
                       <Component id="casilla6l4" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                       <Component id="casilla6l5" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                       <Component id="casilla6l6" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="casilla7l4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="casilla7l5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="casilla7l6" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="casilla9l4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="casilla9l5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="casilla9l6" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="casilla3l7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="casilla3l8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="casilla3l9" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="casilla6l7" min="-2" max="-2" attributes="0"/>
@@ -201,30 +185,58 @@
                       <Component id="casilla6l9" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="casilla9l4" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla9l5" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla9l6" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
                       <Component id="casilla9l7" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                       <Component id="casilla9l8" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                       <Component id="casilla9l9" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="casilla9l1" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="casilla1l7" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla9l2" min="-2" max="-2" attributes="0"/>
+                      <Component id="casilla1l8" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="casilla9l3" min="-2" max="-2" attributes="0"/>
+                      <Component id="casilla1l9" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="casilla2l7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="casilla2l8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="casilla2l9" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="casilla4l7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="casilla4l8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="casilla4l9" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="casilla5l7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="casilla5l8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="casilla5l9" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="casilla7l7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="casilla7l8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="casilla7l9" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="casilla8l7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="casilla8l8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="casilla8l9" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <EmptySpace pref="22" max="32767" attributes="0"/>
+                      <EmptySpace pref="16" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Component id="casillaResultado" min="-2" pref="327" max="-2" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
@@ -233,7 +245,7 @@
                               <Component id="botonLimpiar" max="32767" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace pref="90" max="32767" attributes="0"/>
+                      <EmptySpace pref="26" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="135" max="-2" attributes="0"/>
@@ -254,102 +266,127 @@
                           <Component id="casilla1l1" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="casilla1l2" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="casilla1l3" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla2l1" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla2l2" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla2l3" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla3l1" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla3l2" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla3l3" alignment="0" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="casilla1l4" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="casilla1l5" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="casilla1l6" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla2l4" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla2l5" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla2l6" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla3l4" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla3l5" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla3l6" alignment="0" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="casilla1l7" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="casilla1l8" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="casilla1l9" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla2l7" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla2l8" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla2l9" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla3l7" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla3l8" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla3l9" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="casilla2l4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="casilla2l5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="casilla2l6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="casilla2l7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="casilla2l8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="casilla2l9" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="casilla3l7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="casilla3l8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="casilla3l9" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="casilla3l4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="casilla3l5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="casilla3l6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="casilla2l1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="casilla2l2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="casilla2l3" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="casilla3l1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="casilla3l2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="casilla3l3" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="casilla4l1" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="casilla4l2" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="casilla4l3" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla5l1" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla5l2" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla5l3" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla6l1" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla6l2" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla6l3" alignment="0" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="casilla4l4" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="casilla4l5" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="casilla4l6" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla5l4" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla5l5" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla5l6" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla6l4" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla6l5" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla6l6" alignment="0" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="casilla4l7" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="casilla4l8" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="casilla4l9" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="casilla5l1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="casilla5l2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="casilla5l3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="casilla5l4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="casilla5l5" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="casilla5l6" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="casilla5l7" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="casilla5l8" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="casilla5l9" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="casilla6l7" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="casilla6l8" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="casilla6l9" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="casilla6l1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="casilla6l2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="casilla6l3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="casilla6l4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="casilla6l5" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="casilla6l6" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="casilla7l1" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="casilla7l2" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="casilla7l3" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla8l1" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla8l2" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla8l3" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla9l1" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla9l2" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla9l3" alignment="0" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="casilla7l4" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="casilla7l5" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="casilla7l6" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla8l4" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla8l5" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla8l6" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla9l4" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla9l5" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla9l6" alignment="0" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="casilla7l7" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="casilla7l8" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="casilla7l9" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="casilla8l1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="casilla8l2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="casilla8l3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="casilla8l4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="casilla8l5" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="casilla8l6" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="casilla8l7" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="casilla8l8" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="casilla8l9" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla9l7" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla9l8" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="casilla9l9" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="casilla9l7" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="casilla9l8" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="casilla9l9" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="casilla9l1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="casilla9l2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="casilla9l3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="casilla9l4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="casilla9l5" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="casilla9l6" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" attributes="0">
@@ -364,7 +401,7 @@
                       <Component id="casillaResultado" min="-2" pref="156" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace pref="264" max="32767" attributes="0"/>
+              <EmptySpace pref="22" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -577,6 +614,9 @@
           <Dimension value="[30, 30]"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="casilla9l2ActionPerformed"/>
+      </Events>
     </Component>
     <Component class="java.awt.TextField" name="casilla9l3">
       <Properties>
@@ -889,6 +929,9 @@
           <Dimension value="[30, 30]"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="casilla6l1ActionPerformed"/>
+      </Events>
     </Component>
     <Component class="java.awt.TextField" name="casilla6l2">
       <Properties>
